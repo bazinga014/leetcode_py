@@ -9,6 +9,10 @@ class TreeNode:
 # 二叉树的先序遍历--------------------------------------------------------------------------------------
 class PreOrder:
     #  递归遍历需要把result也放在参数里面！！！
+    # ! 警告
+    # ? 存在疑问的
+    # * 重要的
+    # TODO: 
     def recur_pre_order(self, root: Optional[TreeNode], result: List[int]):
         if root is None:
             return 
